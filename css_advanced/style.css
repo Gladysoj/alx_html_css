@@ -1,0 +1,495 @@
+@import url('https://fonts.cdnfonts.com/css/source-sans-pro');
+
+  body::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 1440px;
+    height: 1093px;
+    z-index: -1;
+    background: #000000;
+    background: radial-gradient(100% 85.9% at 50% 14.1%, rgba(41, 48, 61, 0.0001) 0%, #071629 88%);
+        
+}
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #ffffff; 
+    width: 1440px;
+    height: 3718px;
+    top: -0px;
+    gap: 0px;
+    margin: 0 auto;
+    background: url(https://i.ibb.co/TKcYRJQ/Photo-Room-20241227-103431.png) no-repeat;
+    background-position: top;
+    background-size: 1440px;
+    background-position-y: -66px;
+}
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0rem 8rem;
+    padding: 2rem;
+  }
+  nav ul {
+    width: 234px;
+    height: 15px;
+    display: flex;
+    gap: 3rem;
+    list-style: none;
+  }
+  li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 500;
+    line-height: 15.08px;
+  }
+  nav img {
+    width: 167.02px;
+    height: 29.46px;
+}
+
+.container {
+  width: 1440px;
+  height: 1093px;
+  gap: 0px;
+  opacity: 0px;
+  
+}
+
+.one {
+    text-align: center;
+    
+}
+.pros {
+position: absolute;
+width: 1009px;
+height: 237px;
+top: 720px;
+
+}
+.one h1 {
+font-size: 120px;
+font-weight: 700;
+line-height: 150.84px;
+text-align: center;
+text-decoration-skip-ink: none;
+margin-bottom: 0;
+
+
+}
+.one span {
+  padding: 0 20px;
+  font-weight: 500;
+  margin: 10px;
+}
+.one button {
+    margin-top: 40px;
+    padding: 15px 15px;
+    border-radius: 50px;
+    background-color: rgba(194, 113, 255, 1);
+    filter: drop-shadow(0px 2px 20px rgba(0, 0, 0, 0.582));
+    border: 0;
+    color: #ffffff;
+    font-weight: 600;
+}
+.pros-1 {
+  height: 500px;
+  margin-top: 0rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.pros-1 .pros {
+  display: flex;
+  gap: 109.8px;
+  position: absolute;
+  width: 1009px;
+  height: 237px;
+  top: 758px;
+  text-align: center;
+
+}
+.pros-1 h2 {
+
+position: relative;
+height: 40px;
+width: 261px;
+font-weight: 300;
+font-size: 32px;
+top: 131px;
+
+}
+h2 span {
+  color: rgba(194, 113, 255, 1);
+  font-weight: 700;
+}
+.pros div h3 {
+  font-weight: 900;
+  margin: 10px;
+  text-align: center;
+  width: 150px;
+}
+.pros div p {
+  font-style: italic;
+  font-weight: 100;
+  text-align: center;
+  margin: 0 10px;
+  width: 140px;
+}
+
+.container-1 {
+  position: absolute;
+  background-color: #C271FF;
+  height: 392px;
+  width: 1440px;
+  top: 1093px;
+  gap: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+div blockquote {
+  width: 730px;
+  height: 68px;
+  gap: 0px;
+  opacity: 0px;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 33.6px;
+  text-align: left;
+  text-decoration-skip-ink: none;
+}
+.container-1 div h3 {
+  position: relative;
+  left: 40px;
+}
+.container-1 div p {
+  position: relative;
+  left: 40px;
+  font-size: 22px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 33.6px;
+  text-align: left;
+  text-decoration-skip-ink: none;
+} 
+
+#popular-tutorials {
+  position: relative;
+  top: 150px;
+  height: 650px;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  color: #071629;
+  align-items: center;
+  margin: 0 0 8rem 0;
+}
+
+#popular-tutorials h2 {
+  position: relative;
+  color: #071629;
+  font-size: 32px;
+  font-weight: 100;
+  line-height: 40.22px;
+  text-align: center;
+  text-decoration-skip-ink: none;
+  width: 294px;
+  height: 40px;
+  top: 50px;
+
+}
+
+#popular-tutorials h2 span {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 40.22px;
+  text-align: center;
+  text-decoration-skip-ink: none;
+  color: #c271ff;
+}
+
+#videos {
+  display: flex;
+  gap: 40px;
+}
+
+.video {
+  width: 255px;
+  height: 335px;
+  position: relative;
+}
+
+.video::after {
+  content: url(https://i.ibb.co/1vn5JJ5/play.png);
+  width: 64px;
+  height: 64px;
+  top: 13%;
+  left: 40%;
+  position: absolute;
+}
+
+.video h3 {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20.11px;
+  text-align: left;
+  text-decoration-skip-ink: none;
+}
+
+.video p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  text-decoration-skip-ink: none;
+  color: #07162980;
+}
+
+.video-author {
+  color: #c271ff;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.video-author img {
+  position: relative;
+  top: -15px;
+  width: 30px;
+  height: 30px;
+}
+
+.video-author h4 {
+  position: relative;
+  top: -15px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 27px;
+  text-align: left;
+  text-decoration-skip-ink: none;
+}
+
+.five-star {
+  position: relative;
+  top: -35px;
+  display: flex;
+  gap: 10px;
+  width: 107px;
+  height: 15px;
+  color: #c271ff;
+}
+
+.five-star i {
+  width: 15px;
+  height: 15px;
+}
+
+.video-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.video-footer p {
+  position: relative;
+  top: -30px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 27px;
+  text-align: right;
+  text-decoration-skip-ink: none;
+  color: #c271ff;
+}
+
+.five-star div:last-child {
+  color: #d8d8d8;
+}
+
+
+
+.free-membership {
+  background: #071629;
+  height: 502px;
+  color: #d8d8d8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.free-membership h2 {
+  font-size: 32px;
+  font-weight: 300;
+  line-height: 40.22px;
+  text-align: center;
+  text-decoration-skip-ink: none;
+  position: relative;
+  top: 40px;
+}
+
+.section-membership h2 span {
+  color: #c271ff;
+}
+
+#free-mem {
+  display: flex;
+  align-items: center;
+  gap: 70px;
+}
+
+.free-mem {
+  width: 257px;
+  height: 153px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.free-mem h3 {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 26px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  width: 215px;
+  margin: 0;
+
+}
+
+.free-mem p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: center;
+  text-decoration-skip-ink: none;
+  width: 215px;
+  margin: 0;
+}
+
+.button {
+  position: relative;
+  top: -20px;
+  padding: 15px 20px;
+  border-radius: 50px;
+  background-color: rgba(194, 113, 255, 1);
+  filter: drop-shadow(0px 2px 20px rgba(0, 0, 0, 0.849));
+  border: 0;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+
+
+#section-faq {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 100px 200px;
+}
+
+#section-faq h2 {
+  font-size: 60px;
+  font-weight: 100;
+  line-height: 75.42px;
+  text-align: center;
+  text-decoration-skip-ink: none;
+  color: #071629;
+  margin-top: 0;
+}
+
+.faq-cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  column-gap: 50px;
+  row-gap: 50px;
+}
+
+.faq-card {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 0 100px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  text-decoration-skip-ink: none;
+  color: #07162980;
+  width: 350px;
+}
+
+.faq-card h3 {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20.11px;
+  text-align: left;
+  text-decoration-skip-ink: none;
+  color: #071629;
+
+}
+
+
+footer {
+  
+
+  position: relative;
+  width: 1440px;
+  height: 249px;
+  background: #071629;
+  text-align: center;
+}
+
+footer section {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  padding: 50px 200px;
+  margin: 0;
+}
+
+.footer-imgs {
+  position: relative;
+  top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.i-container {
+  position: relative;
+  top: 0px;
+  height: 20px;
+  width: 20px;
+  padding: 15px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+footer section i {
+  color: #071629;
+} 
+
+.socials {
+  display: flex;
+  gap: 20px;
+}
+
+footer p {
+  position: relative;
+  top: 30px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15.08px;
+  text-align: center;
+  color: #ffffff70;
+  
+}
