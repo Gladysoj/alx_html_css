@@ -1,7 +1,7 @@
 body {
     margin: 0;
-    background-color: grey;
-    background-image: url(./css\ task/images/headphones_hero_1.png);
+    background-color: white;
+    background-image: url('./css\ task/images/headphones_hero_1.jpg');
     color: white;
     background-size: cover;
 }
