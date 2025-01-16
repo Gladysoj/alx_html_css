@@ -61,5 +61,7 @@ nav img {
     margin-top: 6%;
 }
 
-
+:hover {
+    color: #ff6565;
+    opacity: 0.9;
 
