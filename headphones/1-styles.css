@@ -1,0 +1,117 @@
+/* what we do*/
+.container-0 {
+    text-align: center;
+    margin-top: 15%;
+    color: rgb(14, 1, 1);
+}
+
+.container-01 {
+    float: left;
+    width: 10%;
+    padding-left: 30%;
+    margin-top: 15.5%;
+    color: rgb(14, 1, 1);
+}
+
+.container-02 {
+    float: left;
+    width: 9%;
+    padding: 2%;
+    margin-top: 14%;
+    color: rgb(14, 1, 1);
+}
+
+.container-03 {
+    float: left;
+    width: 8%;
+    padding: 2%;
+    margin-top: 14%;
+    color: rgb(14, 1, 1);
+}
+
+.container-04 {
+    float: left;
+    width: 30%;
+    padding: 2%;
+    margin-top: 14%;
+    color: rgb(14, 1, 1);
+}
+
+/* nav bar*/
+body {
+    margin: auto;
+    background-color: white;
+    background: url('./css\ task/images/headphones_hero_1.jpg') no-repeat;
+    color: white;
+    background-size: 1900px;
+    background-position-y: -66px;
+    background-position: top;
+    width: 1400px;
+    height: 3006px;
+    padding-top: 2%;
+    padding-bottom: 5%;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 6rem;
+    padding: 0;
+    top: 10%;
+
+}
+
+nav ul {
+    width: 260px;
+    height: 40px;
+    display: flex;
+    list-style: none;
+    gap: 15px;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    line-height: 20px;
+    display: block;
+}
+
+nav img {
+    width: 167.02px;
+    height: 29.46px;
+}
+
+.heros-1 {
+    margin-top: 30%;
+    text-align: center;
+    justify-content: center;
+}
+
+.red {
+    position: relative;
+    left: 650px;
+    top: 0;
+    border-radius: 20px;
+    padding: 15px;
+    padding-right: 23px;
+    padding-left: 23px;
+    background-color: #ff6565;
+    margin-top: 5%;
+    font-weight: 600;
+    color: white;
+    
+    
+}
+.heros-2{
+    text-align: center;
+    margin-top: 6%;
+}
+
+:hover {
+    color: #ff6565;
+    opacity: 0.9;
+}
+
+/* our results*/ 
+

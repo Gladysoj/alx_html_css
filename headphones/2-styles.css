@@ -1,0 +1,222 @@
+
+/* what we do*/
+.container-0 {
+    text-align: center;
+    margin-top: 20%;
+    color: rgb(14, 1, 1);
+}
+
+.container-01 {
+    float: left;
+    width: 15%;
+    padding-left: 20%;
+    margin-top: 6%;
+    color: rgb(14, 1, 1);
+}
+
+.container-02 {
+    float: left;
+    width: 15%;
+    padding: 2%;
+    margin-top: 5%;
+    color: rgb(14, 1, 1);
+}
+
+.container-03 {
+    float: left;
+    width: 15%;
+    padding: 2%;
+    margin-top: 5%;
+    color: rgb(14, 1, 1);
+}
+
+.container-04 {
+    float: right;
+    width: 15%;
+    padding-right: 10%;
+    margin-top: 7%;
+    color: rgb(14, 1, 1);
+}
+
+/* nav bar*/
+body {
+    margin: auto;
+    background-color: white;
+    background: url('./css\ task/images/headphones_hero_1.jpg') no-repeat;
+    color: white;
+    background-size: 1900px;
+    background-position-y: -66px;
+    background-position: top;
+    
+    height: 3006px;
+    padding-top: 2%;
+    padding-bottom: 5%;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 6rem;
+    padding: 0;
+    top: 10%;
+}
+
+nav ul {
+    width: 260px;
+    height: 20px;
+    display: flex;
+    list-style: none;
+    gap: 10%;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    line-height: 20px;
+    display: block;
+    padding: 0;
+}
+
+nav img {
+    width: 167.02px;
+    height: 29.46px;
+}
+
+.heros-1 {
+    margin-top: 20%;
+    text-align: center;
+    justify-content: center;
+}
+
+.red {
+    position: relative;
+    left: 900px;
+    top: 0;
+    border-radius: 20px;
+    padding: 15px;
+    padding-right: 23px;
+    padding-left: 23px;
+    background-color: #ff6565;
+    margin-top: 5%;
+    font-weight: 600;
+    color: white;
+    
+    
+}
+.heros-2{
+    text-align: center;
+    margin-top: 6%;
+}
+
+:hover {
+    color: #ff6565;
+    opacity: 0.9;
+}
+
+/* our results*/ 
+
+
+
+#our-results{
+    background: url('./css\ task/images/headphones_hero_2.jpg') no-repeat;
+    background-size: 1400px;
+    height: 600px;
+    margin-top: 25%;
+    padding: 1%;
+    position: relative;
+}
+
+.results {
+   width: 100%;
+   height: auto;
+   position: relative;
+   text-align: center;
+   color: white;
+   top: 20%;
+   padding: 15%;
+}
+
+.results h3 {
+    padding: 3%;
+
+}
+
+ .text {
+    position: absolute;
+    color: white;
+    left: 30%;
+    top: 30%;
+   
+}
+.text-2 {
+    position: absolute;
+    color: white;
+    left: 21%;
+    top: 70%;
+    
+}
+
+.images {
+    position: absolute;
+    left: 10%;
+    top: 60%;
+}
+
+.image-1 {
+    position: absolute;
+    left: 30%;
+    top: 60%;
+}
+
+.text-0 {
+    position: absolute;
+    top: 31%;
+    left: 30%;
+}
+
+.text-1 {
+    position: absolute;
+    top: 70%;
+    left: 22%;
+}
+
+.image-2 {
+    position: absolute;
+    left: 50%;
+    top: 60%;
+}
+
+.text-02 {
+    position: absolute;
+    top: 30%;
+    left: 30%; 
+}
+
+.text-002 {
+    position: absolute;
+    top: 70%;
+    left: 23%;
+}
+
+
+.image-3 {
+    position: absolute;
+    left: 70%;
+    top: 60%;
+}
+
+.text-01 {
+    position: absolute;
+    left: 33%;
+    top: 30%;
+}
+
+.text-003 {
+    position: absolute;
+    top: 70%;
+    left: 23%;
+}
+
+/* form section*/
+
